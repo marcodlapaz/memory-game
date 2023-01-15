@@ -1,0 +1,71 @@
+:root {
+  --clr-text: #fff;
+}
+
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  font-family: sans-serif;
+  color: var(--clr-text);
+}
+
+main {
+  width: 45.625rem;
+  margin: 6.25rem auto 3.125rem;
+  display: flex;
+  align-items: center;
+}
+
+.section1 {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0 10px 10px 10px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  height: 6.25rem;
+  width: 6.25rem;
+  font-size: 2.5em;
+  color: var(--clr-text);
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.section2 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0 10px 10px 0;
+  width: 15.625rem;
+  height: 25rem;
+  padding: 0 20px;
+}
+
+.estadisticas {
+  border: 1px solid var(--clr-text);
+  height: 105px;
+  border-radius: 10px;
+  padding: 8px 20px;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+img {
+  width: 80%;
+}
