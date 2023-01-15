@@ -18,7 +18,7 @@ let mostrarTiempo = document.getElementById("t-restante");
 
 // INSERTAR SONIDOS
 let winAudio = new Audio('../assets/sounds/win.wav');
-let clickAudio = new Audio('../assets/sounds/click.wav');
+let clickAudio = new Audio('assets/sounds/click.wav');
 let loseAudio = new Audio('../assets/sounds/lose.wav');
 let rightAudio = new Audio('../assets/sounds/right.wav');
 let wrongAudio = new Audio('../assets/sounds/wrong.wav');
